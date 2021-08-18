@@ -10914,4 +10914,32 @@ footer p {
   font-weight: normal;
   margin-top: 12px;
 }
+
+.component-products {
+  margin-bottom: 20px;
+}
+
+.component-products:hover {
+  text-decoration: none;
+}
+
+.component-products .products-thumbnail {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.component-products .products-thumbnail:hover .products-image, .component-products .products-thumbnail:focus .products-image {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.component-products .products-thumbnail .products-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
 /*# sourceMappingURL=main.css.map */
