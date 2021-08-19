@@ -18,7 +18,7 @@
     &:hover,
     &:focus {
       .products-image {
-        transform: scale(1, 1);
+        transform: scale(1.1);
       }
     }
 
@@ -27,6 +27,23 @@
       height: 100%;
 
       background-color: #ddd;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      transition: all 0.3s ease;
     }
+  }
+  .products-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0c0d36;
+    margin-top: 12px;
+  }
+
+  .products-price {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ff7150;
   }
 }
