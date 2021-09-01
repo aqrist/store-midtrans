@@ -11039,6 +11039,17 @@ footer p {
           box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
+.page-success .row-login {
+  height: 75vh;
+}
+
+.page-success .section-success h2 {
+  font-size: 28px;
+  font-weight: 200;
+  color: #0c0d36;
+  margin-top: 0;
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
